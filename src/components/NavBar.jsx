@@ -1,3 +1,5 @@
+import { Download } from "lucide-react";
+
 const NavBar = () => {
   return (
     <div className="border-b border-white/10 backdrop-blur-sm bg-black/20">
@@ -9,11 +11,12 @@ const NavBar = () => {
           <span className="text-white">YouTube Music Looper</span>
         </div>
         <a
-          className="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors"
+          className="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors flex gap-2 items-center"
           href="https://github.com/iajaymk/YTM-looper"
           target="_"
         >
-          Add to Chrome
+          <Download className="w-4 h-4" />
+          <span className="hidden md:block">Add to Chrome</span>
         </a>
       </div>
     </div>

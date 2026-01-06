@@ -1,11 +1,15 @@
+import { Repeat, Zap } from "lucide-react";
+
 const Features = () => {
   const features = [
     {
+      icon: Repeat,
       title: "Seamless Looping",
       description:
         "Loop any YouTube music track with precision. Set custom start and end points for the perfect repeat.",
     },
     {
+      icon: Zap,
       title: "Instant Activation",
       description:
         "Simple one-click interface. No complicated setup - just install and start looping.",
@@ -28,6 +32,9 @@ const Features = () => {
               key={index}
               className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-red-500/50 transition-all hover:scale-105"
             >
+              <div className="bg-red-500/20 w-14 h-14 rounded-xl flex items-center justify-center mb-6 border border-red-500/30">
+                <feature.icon className="w-7 h-7 text-red-400" />
+              </div>
               <h3 className="text-white mb-3">{feature.title}</h3>
               <p className="text-gray-400">{feature.description}</p>
             </div>
