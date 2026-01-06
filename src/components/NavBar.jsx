@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="h-8 w-8">
-            <img src="/src/assets/ytm-logo.png" alt="YTM Looper Logo" />
+            <img src="/assets/ytm-logo.png" alt="YTM Looper Logo" />
           </div>
           <span className="text-white">YouTube Music Looper</span>
         </div>
