@@ -3,6 +3,11 @@ const LooperUI = () => {
     <div>
       <div className="bg-gradient-to-br from-red-500/20 to-purple-500/20 rounded-3xl p-8 md:p-12 border border-white/10 backdrop-blur-sm">
         <div className="bg-black/40 rounded-2xl p-8 border border-white/10">
+          <div className="flex items-center justify-center mb-6">
+            <div className="h-10 md:h-32 w-10 md:w-32">
+              <img src="./src/assets/ytm-logo.png" alt="YTM Looper Logo" />
+            </div>
+          </div>
           <div className="space-y-4">
             <div className="bg-white/5 rounded-lg p-4 border border-white/10">
               <div className="flex items-center justify-between mb-2">
