@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-gray-400 flex items-center gap-3">
             <div className="h-8 w-8">
-              <img src="./src/assets/ytm-logo.png" alt="YTM Looper Logo" />
+              <img src="/assets/ytm-logo.png" alt="YTM Looper Logo" />
             </div>
             <span>YouTube Music Looper</span>
           </div>

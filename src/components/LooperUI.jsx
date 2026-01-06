@@ -5,7 +5,7 @@ const LooperUI = () => {
         <div className="bg-black/40 rounded-2xl p-8 border border-white/10">
           <div className="flex items-center justify-center mb-6">
             <div className="h-10 md:h-32 w-10 md:w-32">
-              <img src="./src/assets/ytm-logo.png" alt="YTM Looper Logo" />
+              <img src="/assets/ytm-logo.png" alt="YTM Looper Logo" />
             </div>
           </div>
           <div className="space-y-4">
